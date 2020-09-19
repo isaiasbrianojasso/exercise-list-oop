@@ -1,25 +1,19 @@
 package uaslp.enginering.labs.list;
-
 import org.junit.jupiter.api.Test;
 import uaslp.enginering.labs.model.Student;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ArrayListTest {
-
 
     @Test
     public void givenNewList_whenSize_thenZeroIsReturned() {
         // Given:
         ArrayList<Student> arrayList = new ArrayList<>();
-
         // When:
         int size = arrayList.size();
-
         // Then:
         assertEquals(0, size);
     }
-
     @Test
     public void givenNewList_whenAdd_thenElementIsInserted() {
         // Given:
