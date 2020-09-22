@@ -17,7 +17,7 @@ public class ArrayList<T> {
         }
 
         public T next() {
-            return (T)elements[currentIndex++];
+            return (T) elements[currentIndex++];
         }
 
     }
@@ -71,7 +71,7 @@ public class ArrayList<T> {
     }
 
     public T getAt(int index) {
-        return index < lastIndex ? (T)elements[index] : null;
+        return index < lastIndex ? (T) elements[index] : null;
     }
 
     public void insert(T reference, T newStudent, InsertPosition insertPosition) {
